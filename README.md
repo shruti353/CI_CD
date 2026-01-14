@@ -5,7 +5,7 @@ The solution covers **model training, containerization, deployment using Docker 
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 - **Dataset**: Iris Dataset (UCI Machine Learning Repository)
 - **Model**: RandomForestClassifier
@@ -20,7 +20,7 @@ The trained ML model is exposed as a **REST API** and deployed with **multiple r
 
 ---
 
-## ⚙️ Requirements
+##  Requirements
 
 - Python 3.10+
 - Docker & Docker Desktop
@@ -29,7 +29,7 @@ The trained ML model is exposed as a **REST API** and deployed with **multiple r
 
 ---
 
-## 🚀 Steps to Run the Project
+##  Steps to Run the Project
 
 ### 1️⃣ Create & Activate Virtual Environment
 
@@ -51,7 +51,7 @@ docker stack deploy -c swarm_stack.yml iris_stack
 ### 8️⃣ Verify Running Services
 docker stack services iris_stack
 
-## 🎓 Academic Information
+##  Academic Information
 
 Course: MSc Data Science – Semester IV
 
